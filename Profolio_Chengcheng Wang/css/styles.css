@@ -1,0 +1,162 @@
+/* ==========================================================================
+   0. GLOBAL
+   ========================================================================== */
+
+body {
+  padding: 20px 0;
+  font: 200 14px "Lato", sans-serif;
+  color: #666756;
+  background: #fff;
+}
+
+hr {
+  border-top: 4px solid #bbb;
+}
+
+/* ==========================================================================
+   1. PROFILE
+   ========================================================================== */
+
+.profile {
+  margin-top: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 3.286em;
+}
+
+.profile-job {
+  margin: 5px;
+  font-size: 1.429em;
+}
+
+.text-thin {
+  font-weight: 180;
+}
+
+/* ==========================================================================
+   2. PROJECTS
+   ========================================================================== */
+
+.project-featured {
+  color: #bbb;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-title {
+  color: #666756;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.works {
+  margin-top: 40px;
+}
+
+/* ==========================================================================
+   3. FOOTER
+   ========================================================================== */
+
+.footer {
+  margin-top: 50px;
+  font-size: 1.143em;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* ==========================================================================
+   4. RESPONSIVE
+   ========================================================================== */
+
+/* 4.1 LARGE DEVICES, WIDE SCREENS, MEDIUM DEVICES, DESKTOPS
+   ========================================================================== */
+
+@media only screen and (max-width: 992px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* 4.2 SMALL DEVICES, TABLETS LANDSCAPE
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* 4.3 SMALL DEVICES, TABLETS PORTRAIT
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
+
+/* 4.4 EXTRA SMALL DEVICES, PHONES
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
+
+/* 4.5 CUSTOM, IPHONE RETINA
+   ========================================================================== */
+
+@media only screen and (max-width: 360px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
